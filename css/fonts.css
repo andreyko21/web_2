@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?7m2u3x');
+    src: url('../fonts/icomoon.eot?7m2u3x#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?7m2u3x') format('truetype'),
+        url('../fonts/icomoon.woff?7m2u3x') format('woff'),
+        url('../fonts/icomoon.svg?7m2u3x#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Post No Bills Jaffna SemiBold';
+    src: url(../fonts/PostNoBillsJaffna-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'PT-Sans';
+    src: url(../fonts/PT_Sans-Web-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(../fonts/PlayfairDisplay-Bold.ttf);
+}
