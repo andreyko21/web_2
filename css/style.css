@@ -266,14 +266,15 @@ body {
 .background-watch {
     background-color: #191B1C;
     padding: 27px 22px 34px 22px;
+    align-items: center;
     max-width: 200px;
-    max-height: 270px;
+    max-height: 250px;
 }
 
 .watch__img {
     max-width: 100%;
     max-height: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .watch-name {
@@ -284,8 +285,6 @@ body {
     margin-top: 10px;
     color: #D0D0D0;
 }
-
-.watch:hover {}
 
 .new-collection__img {
     width: 100%;
@@ -346,6 +345,7 @@ body {
 .list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-column-gap: 5px;
     grid-row-gap: 40px;
     margin-right: auto;
@@ -381,6 +381,7 @@ body {
 
 .new-goods__line {
     margin-top: 40px;
+    margin-bottom: 81px;
 }
 
 /* Articles */
@@ -532,7 +533,7 @@ body {
 }
 
 .button-2 {
-    display: block;
+    display: inline-block;
     padding: 10px 20px;
     color: #D0D0D0;
 }
@@ -555,8 +556,9 @@ body {
     background: rgba(255, 255, 255, 0.6);
     color: rgb(255, 255, 255, 0.3);
     font-size: 18px;
-    max-width: 210px;
+    max-width: 180px;
     padding: 10px 20px;
+    margin-top: 29px;
 }
 
 .last-line {
@@ -601,6 +603,14 @@ body {
 
 .list__watch{
     display: none;
+}
+
+.button-3{
+    padding: 10px 20px;
+    display: inline-block;
+    background: #0F0F0F;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 900px){
