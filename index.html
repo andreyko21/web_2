@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <link rel="stylesheet" href="./css/resetStyle.css">
     <link rel="stylesheet" href="./css/fonts.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style2.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <title>PORTEN</title>
 </head>
@@ -17,21 +17,21 @@
     <header class="header">
         <div class="container header__container">
             <div class="top-line container__top-line">
-                <div class="info top-line__info">
-                    <a class="info__item telephone" href="tel:8 (812) 123-45-67">
-                        <span class="icon-Telephone info__icon-Telephone"></span>
+                <div class="top-info top-line__top-info">
+                    <a class="top-info__item top-info__item-link" href="tel:8 (812) 123-45-67">
+                        <span class="icon-Telephone top-info__icon"></span>
                         8 (812) 123-45-67
                     </a>
-                    <p class="info__item">Працюємо 7 днів на тиждень</p>
-                    <p class="info__item">9:00 — 18:00</p>
+                    <p class="top-info__item">Працюємо 7 днів на тиждень</p>
+                    <p class="top-info__item">9:00 — 18:00</p>
                 </div>
-                <div class="">
-                    <a href="" class="top-line__Login login">
-                        <span class="icon-Log-in top-line__Login-icon"></span>
+                <div class="top-info top-line__top-info">
+                    <a href="" class="top-info__item top-info__item-link top-info__item_border_1">
+                        <span class="icon-Log-in top-info__icon"></span>
                         Вхід</a>
-                    <a href="" class="top-line__registration registration">
-                        Реєстрація
-                    </a>
+                    <p class="top-info__item top-info__item_border_2">
+                        <a href="" class=" top-info__item-link">Реєстрація</a>
+                    </p>
                 </div>
             </div>
             <div class="second-line header__second-line">
@@ -39,23 +39,23 @@
                 <nav class="nav second-line__nav">
                     <ul class="menu nav-menu">
                         <li class="menu__item">
-                            <a href="" class="menu__link">Сподобалося</a>
+                            <a href="" class="nav__link">Сподобалося</a>
                         </li>
                         <li class="menu__item">
-                            <a href="" class="menu__link">Особистий кабінет</a>
+                            <a href="" class="nav__link">Особистий кабінет</a>
                         </li>
                         <li class="menu__item">
-                            <a href="" class="menu__link">Налаштування</a>
+                            <a href="" class="nav__link">Налаштування</a>
                         </li>
                     </ul>
-                    <a href="" class="nav__Basket">
-                        <span class="icon-Basket"></span>
+                    <a href="" class="nav__Basket nav__link nav__icon">
+                        <span class="icon-Basket "></span>
                     </a>
-                    <a href="" class="nav__Search">
+                    <a href="" class="nav__Search nav__link nav__icon">
                         <span class="icon-Search"></span>
                     </a>
                 </nav>
-
+                <nav class="burger-menu"></nav>
             </div>
         </div>
     </header>
@@ -74,12 +74,12 @@
     </section>
     <section class="season container-2">
         <div class="new-season">
-            <h2 class="title new-season__title">Сезон <small>2021/22</small></h2>
+            <h2 class="season-title new-season__season-title">Сезон <small>2021/22</small></h2>
             <hr class="line new-season__line">
             <div class="season__watch swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <figure>
+                        <figure class="watch">
                             <div class="background-watch">
                                 <img src="./img/Louis_XVI_ATHOS.png" alt="Louis_XVI_ATHOS" class="watch__img">
                             </div>
@@ -123,7 +123,7 @@
             </div>
         </div>
     </section>
-    <section class="season-2 container-2">
+    <section class="season container-2 row-reverse">
         <div class="new-season-text">
             <h2 class="title new-season-text__title">Колекція <small>2018</small></h2>
             <hr class="line new-season-text__line">
@@ -147,8 +147,8 @@
         <div class="container new-goods-container">
             <h2 class="title new-goods__title">Нові надходження</h2>
             <hr class="line new-goods__line">
-            <div class="list">
-                <figure>
+            <div class="watchs">
+                <figure class="watch">
                     <div class="background-watch">
                         <img src="./img/Louis_XVI_ATHOS.png" alt="Carl von Zeyten" class="watch__img">
                     </div>
@@ -157,7 +157,7 @@
                         <p class="watch-price">16 500 грн.</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="watch">
                     <div class="background-watch">
                         <img src="./img/JORD_AR5905.png" alt="JORD AR5905" class="watch__img">
                     </div>
@@ -166,7 +166,7 @@
                         <p class="watch-price">65 000 грн.</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="watch">
                     <div class="background-watch">
                         <img src="./img/Emporio_Armani_Sportivo .png" alt="Emporio Armani Sportivo" class="watch__img">
                     </div>
@@ -175,7 +175,7 @@
                         <p class="watch-price">165 000 грн.</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="watch">
                     <div class="background-watch">
                         <img src="./img/Rolex_Oyster_Perpetual.png" alt="Rolex Oyster Perpetual" class="watch__img">
                     </div>
@@ -184,7 +184,7 @@
                         <p class="watch-price">280 000 грн.</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="watch">
                     <div class="background-watch">
                         <img src="./img/Louis_XVI_ATHOS.png" alt="Louis_XVI_ATHOS" class="watch__img">
                     </div>
@@ -193,7 +193,7 @@
                         <p class="watch-price">65 000 грн.</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="watch">
                     <div class="background-watch">
                         <img src="./img/U-Boat_Italo_Fontana.png" alt="U-Boat Italo Fontana" class="watch__img">
                     </div>
@@ -202,7 +202,7 @@
                         <p class="watch-price">18 700 грн.</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="watch">
                     <div class="background-watch">
                         <img src="./img/Gucci_Men's_G.png" alt="Gucci Men's G" class="watch__img">
                     </div>
@@ -211,16 +211,16 @@
                         <p class="watch-price">38 500 грн.</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="watch last-watch">
                     <div class="background-watch">
                         <img src="./img/JORD_AR5905.png" alt="All" class="watch__img">
                     </div>
                 </figure>
             </div>
-            <div class="list__watch swiper-container">
-                <div class="swiper-wrapper list">
+            <div class="watchs-list swiper-container">
+                <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <figure>
+                        <figure class="watch">
                             <div class="background-watch">
                                 <img src="./img/Louis_XVI_ATHOS.png" alt="Carl von Zeyten" class="watch__img">
                             </div>
@@ -231,7 +231,7 @@
                         </figure>
                     </div>
                     <div class="swiper-slide">
-                        <figure>
+                        <figure class="watch">
                             <div class="background-watch">
                                 <img src="./img/JORD_AR5905.png" alt="JORD AR5905" class="watch__img">
                             </div>
@@ -242,7 +242,7 @@
                         </figure>
                     </div>
                     <div class="swiper-slide">
-                        <figure>
+                        <figure class="watch">
                             <div class="background-watch">
                                 <img src="./img/Emporio_Armani_Sportivo .png" alt="Emporio Armani Sportivo"
                                     class="watch__img">
@@ -254,7 +254,7 @@
                         </figure>
                     </div>
                     <div class="swiper-slide">
-                        <figure>
+                        <figure class="watch">
                             <div class="background-watch">
                                 <img src="./img/Rolex_Oyster_Perpetual.png" alt="Rolex Oyster Perpetual"
                                     class="watch__img">
@@ -266,7 +266,7 @@
                         </figure>
                     </div>
                     <div class="swiper-slide">
-                        <figure>
+                        <figure class="watch">
                             <div class="background-watch">
                                 <img src="./img/Louis_XVI_ATHOS.png" alt="Louis_XVI_ATHOS" class="watch__img">
                             </div>
@@ -277,7 +277,7 @@
                         </figure>
                     </div>
                     <div class="swiper-slide">
-                        <figure>
+                        <figure class="watch">
                             <div class="background-watch">
                                 <img src="./img/U-Boat_Italo_Fontana.png" alt="U-Boat Italo Fontana" class="watch__img">
                             </div>
@@ -288,7 +288,7 @@
                         </figure>
                     </div>
                     <div class="swiper-slide">
-                        <figure>
+                        <figure class="watch">
                             <div class="background-watch">
                                 <img src="./img/Gucci_Men's_G.png" alt="Gucci Men's G" class="watch__img">
                             </div>
@@ -299,7 +299,7 @@
                         </figure>
                     </div>
                     <div class="swiper-slide">
-                        <figure>
+                        <figure class="watch last-watch">
                             <div class="background-watch">
                                 <img src="./img/JORD_AR5905.png" alt="All" class="watch__img">
                             </div>
