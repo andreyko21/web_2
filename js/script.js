@@ -52,5 +52,19 @@ new Swiper('.watchs-list', {
     }
 });
 
+const iconMenu = document.querySelector('.burger-menu');
+if(iconMenu){
+    const menuHeader = document.querySelector('.header');
+    const menuBody = document.querySelector('.top-line');
+    const menuBody2 = document.querySelector('.nav');
+    iconMenu.addEventListener("click", function(e){
+        document.body.classList.toggle('lock');
+        iconMenu.classList.toggle('active');
+        menuBody.classList.toggle('active');
+        menuBody2.classList.toggle('active');
+        menuHeader.classList.toggle('active');
+    })
+}
+
 
 

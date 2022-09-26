@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+
+        .nav {
+            overflow: hidden;
+            background-color: #333;
+            position: relative;
+            height: 100%;
+            display: flex;
+            
+        }
+
+
+        .topnav #myLinks {
+            display: none;
+        }
+
+        .topnav a,
+        #topline p {
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            display: block;
+        }
+
+        .topnav a.icon {
+            background: black;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .active {
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+        <div class="container header__container">
+            <div class="top-line container__top-line">
+                <div class="top-info top-line__top-info">
+                    <a class="top-info__item top-info__item-link" href="tel:8 (812) 123-45-67">
+                        <span class="icon-Telephone top-info__icon"></span>
+                        8 (812) 123-45-67
+                    </a>
+                    <p class="top-info__item">Працюємо 7 днів на тиждень</p>
+                    <p class="top-info__item">9:00 — 18:00</p>
+                </div>
+                <div class="top-info top-line__top-info">
+                    <a href="" class="top-info__item top-info__item-link top-info__item_border_1">
+                        <span class="icon-Log-in top-info__icon"></span>
+                        Вхід</a>
+                    <p class="top-info__item top-info__item_border_2">
+                        <a href="" class=" top-info__item-link">Реєстрація</a>
+                    </p>
+                </div>
+            </div>
+            <div class="second-line header__second-line">
+                <a href="" class="logo second-line__logo">PORTEN</a>
+                <nav class="nav second-line__nav">
+                    <ul class="menu nav-menu">
+                        <li class="menu__item">
+                            <a href="" class="nav__link">Сподобалося</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="nav__link">Особистий кабінет</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="" class="nav__link">Налаштування</a>
+                        </li>
+                    </ul>
+                    <a href="" class="nav__Basket nav__link nav__icon">
+                        <span class="icon-Basket "></span>
+                    </a>
+                    <a href="" class="nav__Search nav__link nav__icon">
+                        <span class="icon-Search"></span>
+                    </a>
+                </nav>
+                <div class="burger-menu">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+        function myFunction() {
+            var x = document.getElementById("topline");
+            var y = document.getElementById("myLinks");
+            if (x.style.display === "block" && y.style.display === "block") {
+                x.style.display = "none";
+                y.style.display = "none";
+            } else {
+                x.style.display = "block";
+                y.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
