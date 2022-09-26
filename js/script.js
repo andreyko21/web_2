@@ -1,5 +1,5 @@
 new Swiper('.our-partners', {
-    loop:true,
+    loop: true,
     spaceBetween: 30,
     autoplay: {
         delay: 2000,
@@ -17,23 +17,40 @@ new Swiper('.our-partners', {
     }
 });
 
-new Swiper('.season__watch',{
+new Swiper('.season__watch', {
     watchOverflow: true,
-    centeredSlides: true,
-    slidesPerView: 3,
     spaceBetween: 30,
-    loop:true,
+    loop: true,
     autoplay: {
         delay: 2000,
+    },
+    breakpoints: {
+        1000: {
+            slidesPerView: 3,
+        },
+        600: {
+            slidesPerView: 2,
+        },
+        300: {
+            slidesPerView: 1,
+        }
     }
 });
 
-    new Swiper('.watchs-list',{
-        watchOverflow: true,
-        centeredSlides: true,
-        slidesPerView: 3,
-        loop:true,
-    });
+new Swiper('.watchs-list', {
+    watchOverflow: true,
+    centeredSlides: true,
+    slidesPerView: 2,
+    loop: true,
+    breakpoints: {
+        600: {
+            slidesPerView: 2,
+        },
+        300: {
+            slidesPerView: 1,
+        }
+    }
+});
 
 
 
