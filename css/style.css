@@ -600,9 +600,8 @@
 }
 
 .button-3{
-    padding: 10px 20px;
-    display: inline-block;
-    background: #0F0F0F;
+    padding: 15px 20px;
+    background-color: #000000;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -672,10 +671,18 @@
     .watchs{
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .teg-articles{
+        margin-left: 10px;
+    }
     
 }
 
 @media screen and (max-width: 843px){
+    .new-season-text__description{
+        padding: 10px;
+    }
+
     .burger-menu{
         z-index: 5;
         display: block;
@@ -745,6 +752,7 @@
     }
 
     .burger-logo{
+        padding: 10px;
         top: 0;
         left: 0;
         position: fixed;
@@ -753,12 +761,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        z-index: 5;
+        z-index: 3;
     }
 
     .top-line, .nav{
         display: none;
         text-align: center;
+        z-index: 5;
     }
 
     .top-line.active, .nav.active{
@@ -766,15 +775,22 @@
         text-align: center;
         width: 100%;
         height: 100%;
+        z-index: 5;
     }
 
     .nav{
         padding-top: 100px;
     }
     
-    .top-info{
-        font-size: 30px;
+    .menu__item{
+        padding: 0;
+    }
+
+    .top-info, .menu__item{
+        font-size: 40px;
         line-height: 40px;
+        padding: 10px;
+        margin: 15px;
     }
 
     .top-info__item::before{
@@ -784,6 +800,11 @@
     .nav__link{
         font-size: 40px;
     }
+
+    .nav__Search{
+        font-size: 35px;
+    }
+
 }
 
 @media screen and (max-width: 700px){
@@ -797,5 +818,32 @@
 
     .watchs-list{
         display: block;
+    }
+
+    .new-collection__heading{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .teg-articles{
+        font-size: 10px;
+    }
+
+    .our-brands{
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+
+    .footer{
+        padding: 10px;
+    }
+
+    .new-goods, .new-season, .new-season-text{
+        padding-top: 10px;
+        padding-bottom: 30px;
     }
 }
